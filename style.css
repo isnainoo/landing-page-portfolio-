@@ -1,0 +1,50 @@
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.img-profile{
+    height: 400px;
+    width: 380px;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.title{
+    font-size: 28px;
+}
+
+.description {
+    font-size: 18px;
+}
+@media (max-widht: 800px){
+    .img-profile {
+        height:300px;
+        width: 280px;
+    }
+    .navbar-nav{
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .nav-link{
+        color:black;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .description{
+        font-size: 14px;
+    }
+}
